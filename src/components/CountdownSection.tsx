@@ -12,7 +12,7 @@ export default function CountdownSection() {
 
     useEffect(() => {
         const calculateTimeLeft = () => {
-            const targetDate = new Date('2025-12-30').getTime();
+            const targetDate = new Date('2026-01-19').getTime();
             const now = new Date().getTime();
             const difference = targetDate - now;
 
